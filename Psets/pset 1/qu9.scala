@@ -17,7 +17,7 @@ object hits {
 
 
     def hits_On(array : Array[Int]) : Int = {
-        var max = - 1 // probably want negative infinity...  lets just say my code only works on positive integers for now
+        var max = array(0)  // make work on negative arrays       ඞ
         val n = array.size
         var i = 0
         var hits_count = 0
